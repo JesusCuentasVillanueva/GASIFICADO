@@ -1,0 +1,14 @@
+{
+  "start_tag": "START1",
+  "stop_tag": null,
+  "ppm_tag": null,
+  "alerta_tag": "ALERTA1",
+  "confirm_tag": "CONFIRM1",
+  "plc_connection": {
+    "ip_address": "192.168.0.6",
+    "rack": 0,
+    "slot": 1
+  },
+  "last_saved": "2025-08-11 16:56:14",
+  "version": "1.0"
+}
