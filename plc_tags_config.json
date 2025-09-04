@@ -1,84 +1,12 @@
 {
   "plc_connection": {
-    "ip_address": "192.168.0.6",
+    "ip_address": "192.168.0.1",
     "rack": 0,
     "slot": 1
   },
   "tags": [
     {
-      "name": "START1",
-      "tag_type": "M",
-      "address": 2,
-      "data_type": "bool",
-      "bit": 0,
-      "db_number": null
-    },
-    {
-      "name": "CONFIRM1",
-      "tag_type": "DB",
-      "address": 12,
-      "data_type": "int",
-      "bit": null,
-      "db_number": 53
-    },
-    {
-      "name": "CONFIRMACION1",
-      "tag_type": "M",
-      "address": 2,
-      "data_type": "bool",
-      "bit": 6,
-      "db_number": null
-    },
-    {
-      "name": "SET1",
-      "tag_type": "DB",
-      "address": 2,
-      "data_type": "int",
-      "bit": null,
-      "db_number": 53
-    },
-    {
-      "name": "PPM1",
-      "tag_type": "DB",
-      "address": 0,
-      "data_type": "int",
-      "bit": null,
-      "db_number": 12
-    },
-    {
-      "name": "PPM2",
-      "tag_type": "DB",
-      "address": 2,
-      "data_type": "int",
-      "bit": null,
-      "db_number": 12
-    },
-    {
-      "name": "PPM3",
-      "tag_type": "DB",
-      "address": 4,
-      "data_type": "int",
-      "bit": null,
-      "db_number": 12
-    },
-    {
-      "name": "SET2",
-      "tag_type": "DB",
-      "address": 4,
-      "data_type": "int",
-      "bit": null,
-      "db_number": 53
-    },
-    {
-      "name": "SET3",
-      "tag_type": "DB",
-      "address": 6,
-      "data_type": "int",
-      "bit": null,
-      "db_number": 53
-    },
-    {
-      "name": "START2",
+      "name": "VENT1_ON",
       "tag_type": "M",
       "address": 2,
       "data_type": "bool",
@@ -86,7 +14,7 @@
       "db_number": null
     },
     {
-      "name": "START3",
+      "name": "VENT1_OFF",
       "tag_type": "M",
       "address": 2,
       "data_type": "bool",
@@ -94,31 +22,15 @@
       "db_number": null
     },
     {
-      "name": "STOP1",
+      "name": "PID1_ON",
       "tag_type": "M",
-      "address": 3,
+      "address": 2,
       "data_type": "bool",
-      "bit": 0,
+      "bit": 3,
       "db_number": null
     },
     {
-      "name": "STOP2",
-      "tag_type": "M",
-      "address": 3,
-      "data_type": "bool",
-      "bit": 1,
-      "db_number": null
-    },
-    {
-      "name": "STOP3",
-      "tag_type": "M",
-      "address": 3,
-      "data_type": "bool",
-      "bit": 2,
-      "db_number": null
-    },
-    {
-      "name": "ALERTA1",
+      "name": "PID1_OFF",
       "tag_type": "M",
       "address": 2,
       "data_type": "bool",
@@ -126,38 +38,14 @@
       "db_number": null
     },
     {
-      "name": "ALERTA2",
-      "tag_type": "M",
-      "address": 2,
-      "data_type": "bool",
-      "bit": 5,
-      "db_number": null
-    },
-    {
-      "name": "ALERTA3",
-      "tag_type": "M",
-      "address": 2,
-      "data_type": "bool",
-      "bit": 6,
-      "db_number": null
-    },
-    {
-      "name": "CONFIRM2",
+      "name": "SET1",
       "tag_type": "DB",
-      "address": 14,
-      "data_type": "int",
+      "address": 52,
+      "data_type": "real",
       "bit": null,
-      "db_number": 53
-    },
-    {
-      "name": "CONFIRM3",
-      "tag_type": "DB",
-      "address": 16,
-      "data_type": "int",
-      "bit": null,
-      "db_number": 53
+      "db_number": 6
     }
   ],
   "version": "1.0",
-  "last_saved": "2025-08-11 16:35:06"
+  "last_saved": "2025-09-04 12:25:03"
 }
